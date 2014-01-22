@@ -1,10 +1,22 @@
-Payments Use Cases
+Use Cases and Requirements for Web Payments
 ==================
 
-This repository is setup to document use cases for payments on web on mobile. On March 24-25 the W3C will hold a [Workshop on Web Payments](http://www.w3.org/2013/10/payments/Overview.html). We have been asked to submit our use cases to help define the work the W3C will do on web payments in the future. 
+This document outlines the use cases and requirements we payments on mobile. The use cases and requirements were gathered by gathering data on web and native applications with payment functionality, as well as looking at native payment platforms. 
 
-Drop your use cases onto the wiki page [here](https://github.com/w3c-webmob/payments-use-cases/wiki/Use-Case-List). Everyone should have access to this page.
 
-[USE CASE WIKI PAGE](https://github.com/w3c-webmob/payments-use-cases/wiki/Use-Case-List)
+## Motiviation
+The main questions this document seeks to expore are:
+* What functionality is being achieved by native payment applications and platforms which is missing from the web?
+* What functionality is being offered through proprietary plugins to the web for payments?
+* What methods of payments are being offered to users through these other methods of payments?
 
-When we have collected enough use cases, we will write them up here for the workshop.
+On March 24-25 the W3C will hold a [Workshop on Web Payments](http://www.w3.org/2013/10/payments/Overview.html). We have been asked to submit our use cases to help define the work the W3C will do on web payments in the future. 
+
+
+## Web
+
+## iOS
+
+## Android
+
+## Other Platforms
