@@ -39,7 +39,7 @@ SDK for Android and iOS applications:
 * Coordinate the payment with PayPal
 * Return to proprieter a proof of payment.
 
-![Paypal iOS App: Sending Money](images/paypaliOSsend.jpeg)
-![Paypal iOS App: Wallet](images/paypaliOSsend.jpeg)
-![Paypal Android App: Sending Money](images/paypaliOSsend.jpeg)
-![Paypal Android App: Wallet](images/paypaliOSsend.jpeg)
+![Paypal iOS App: Sending Money](images/paypaliOSsend.jpeg) 
+![Paypal iOS App: Wallet](images/paypaliOSwallet.jpeg) 
+![Paypal Android App: Sending Money](images/paypalAndsend.webp) 
+![Paypal Android App: Wallet](images/paypalAndwallet.webp) 
