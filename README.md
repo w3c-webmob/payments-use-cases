@@ -21,19 +21,21 @@ Paypal allows users to pay for goods and services, send money and manage a walle
 
 __Paypal Use Cases__
 * Send money to other users (identifying the users via email)
-* Pay for goods and services from third parties via paypal
+* Pay for goods and services from third parties
+* Pay for goods and services in store from third parties
 * Add funds via a 'wallet' system
 * Withdraw funds via a 'wallet' system
-
-__Payment Sources__
-* Debit card
-* Credit card 
-* Bank account.
+* Pay via wallet system
+* Pay using credit and debit card
+* Link and pay by a bank acocunt
+* Link mobile phone number to account and use for pay receipts.
 
 __Region & Currencies__
+
 Worldwide and multi-currency.
 
 __For Developers__
+
 SDK for Android and iOS applications:
 * UI that accepts a PayPal or credit card payment from the user
 * Coordinate the payment with PayPal
@@ -41,5 +43,33 @@ SDK for Android and iOS applications:
 
 ![Paypal iOS App: Sending Money](images/paypaliOSsend.jpeg) 
 ![Paypal iOS App: Wallet](images/paypaliOSwallet.jpeg) 
-![Paypal Android App: Sending Money](images/paypalAndsend.webp) 
-![Paypal Android App: Wallet](images/paypalAndwallet.webp) 
+
+### Google - Web, iOS, Android, Windows
+Google wallet allows users to pay for goods and services and send money to other users. It also allows merchants to manage loyalty cards 
+
+__Paypal Use Cases__
+* Send money to other users (identifying the users via email)
+* Pay for goods and services online from third parties
+* Pay for goods and services in store from third parties
+* Add funds via a 'wallet' system
+* Withdraw funds via a 'wallet' system
+* Pay via wallet system
+* Pay using credit and debit card
+* Manage loyalty schemes
+
+__Region & Currencies__
+
+Worldwide and multi-currency.
+
+__For Developers__
+
+SDK for Android and iOS applications:
+* UI that accepts a PayPal or credit card payment from the user
+* Coordinate the payment with PayPal
+* Return to proprieter a proof of payment.
+
+![Google Wallet iOS App: Sending Money](images/googlewalletiossend.jpeg) 
+![Google Wallet iOS App: Wallet](images/googlewalletios.jpeg) 
+
+## Other Use Cases
+Here are some other use cases not detailed in the above examples.
