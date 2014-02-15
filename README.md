@@ -1,4 +1,4 @@
-Use Cases and Requirements for Web Payments
+Use Cases and Requirements for Web Payments on Mobile
 ==================
 
 This document outlines the use cases and requirements we payments on mobile. The use cases and requirements were gathered by gathering data on web and native applications with payment functionality, as well as looking at native payment platforms. 
