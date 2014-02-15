@@ -36,7 +36,7 @@ Worldwide and multi-currency.
 
 __For Developers__
 
-SDK for Android and iOS applications:
+[SDK](https://developer.paypal.com/webapps/developer/docs/integration/mobile/mobile-sdk-overview/) for Android and iOS applications:
 * UI that accepts a PayPal or credit card payment from the user
 * Coordinate the payment with PayPal
 * Return to proprieter a proof of payment.
@@ -47,7 +47,7 @@ SDK for Android and iOS applications:
 ### Google - Web, iOS, Android, Windows
 Google wallet allows users to pay for goods and services and send money to other users. It also allows merchants to manage loyalty cards 
 
-__Paypal Use Cases__
+__Google Wallet Use Cases__
 * Send money to other users (identifying the users via email)
 * Pay for goods and services online from third parties
 * Pay for goods and services in store from third parties
@@ -63,10 +63,11 @@ Worldwide and multi-currency.
 
 __For Developers__
 
-SDK for Android and iOS applications:
-* UI that accepts a PayPal or credit card payment from the user
-* Coordinate the payment with PayPal
-* Return to proprieter a proof of payment.
+[APIs](https://developers.google.com/wallet/):
+* Payment for goods and services on third party apps
+* Loyalty programmes
+* Digital payments
+* 
 
 ![Google Wallet iOS App: Sending Money](images/googlewalletiossend.jpeg) 
 ![Google Wallet iOS App: Wallet](images/googlewalletios.jpeg) 
