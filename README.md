@@ -78,4 +78,4 @@ Here are some other use cases not detailed in the above examples.
 --Test of Markdown-- __Test__
 
 ##More Testing Use Cases
-![Testing Image](images/120_542509195157_3675_n.jpg]
+![Testing Image](images/120_542509195157_3675_n.jpg)
