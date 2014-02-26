@@ -90,6 +90,8 @@ Here are some other use cases not detailed in the above examples.
 
 ### Square
 
+### Skrill
+
 ### BrainTree
 
 ### World Pay
@@ -104,7 +106,7 @@ Here are some other use cases not detailed in the above examples.
 
 ### Dwolla
 
-###WebMoney
+### WebMoney
 
 ### Ukash
 
