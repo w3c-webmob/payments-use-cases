@@ -103,3 +103,15 @@ Here are some other use cases not detailed in the above examples.
 ### Amazon Payments
 
 ### Dwolla
+
+###WebMoney
+
+### Ukash
+
+### Netteller
+
+### ClickandBuy
+
+### PaySafeCard
+
+### Western Union
