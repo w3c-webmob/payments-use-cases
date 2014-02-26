@@ -74,4 +74,4 @@ __For Developers__
 
 ## Other Use Cases
 Here are some other use cases not detailed in the above examples.
---Test of Markdown--
+--Test of Markdown-- __Test__
