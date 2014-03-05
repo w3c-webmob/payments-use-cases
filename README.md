@@ -1,10 +1,10 @@
 Use Cases and Requirements for Web Payments on Mobile
 ==================
 
-This document outlines the use cases and requirements we payments on mobile. The use cases and requirements were gathered by gathering data on web and native applications with payment functionality, as well as looking at native payment platforms. 
+This document outlines the use cases and requirements for payments on mobile. The use cases and requirements were gathered by gathering data on web and native applications with payment functionality, as well as looking at native payment platforms. 
 
 
-## Motiviation
+## Motivation
 The main questions this document seeks to expore are:
 * What functionality is being achieved by native payment applications and platforms which is missing from the web?
 * What functionality is being offered through proprietary plugins to the web for payments?
@@ -67,7 +67,6 @@ __For Developers__
 * Payment for goods and services on third party apps
 * Loyalty programmes
 * Digital payments
-* 
 
 ![Google Wallet iOS App: Sending Money](images/googlewalletiossend.jpeg) 
 ![Google Wallet iOS App: Wallet](images/googlewalletios.jpeg) 
