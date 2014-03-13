@@ -533,6 +533,7 @@ Text.
 [https://globalpay.westernunion.com/Default.aspx](https://globalpay.westernunion.com/Default.aspx)
 
 __Use Cases__
+
 Text.
 
 __Region & Currencies__
@@ -600,20 +601,6 @@ Features:
 ** Available for both iOS and Android
 ** Delivered as a framework a Bundle for iOS and a JAR file for Android
 
-### solution
-text
-
-__Use Cases__
-
-
-__Region & Currencies__
-
-Text.
-
-__For Developers__
-
-Text.
-
 ### GoCardless - PLATFORMS?
 [https://gocardless.com/](https://gocardless.com/)
 
@@ -679,12 +666,15 @@ Text.
 [http://www.gopago.com/](http://www.gopago.com/)
 
 __Use Cases__
+
 Text.
 
 __Region & Currencies__
+
 Text.
 
 __For Developers__
+
 Text.
 
 ### BlueVia - PLATFORMS?
@@ -723,9 +713,11 @@ __Use Cases__
 * Click the Bitcoin address you wish to send Bitcoins to and enter the amount you wish to send
 
 __Region & Currencies__
+
 Text.
 
 __For Developers__
+
 Text.
 
 ### Clinkle
@@ -739,21 +731,26 @@ __Use Cases__
 * Provide merchants with information about customers for targeted sales promotions
 
 __Region & Currencies__
+
 Text.
 
 __For Developers__
+
 Text.
 
 ### NetSpend - PLATFORMS?
 [http://www.netspend.com](http://www.netspend.com)
 
 __Use Cases__
+
 Text.
 
 __Region & Currencies__
+
 Text.
 
 __For Developers__
+
 Text.
 
 ### KnCWallet - Android
@@ -764,9 +761,11 @@ __Use Cases__
 * Back up encrypted wallet to Google Drive and DropBox
 
 __Region & Currencies__
+
 Text.
 
 __For Developers__
+
 Text.
 
 ### Freshbooks - PLATFORMS?
@@ -779,9 +778,11 @@ __Use Cases__
 * Integration with various payment gateways such as stripe, PayPal, beanstream, Authorize.net, 2checkout.com, Braintree, eway, iTransact
 
 __Region & Currencies__
+
 Text.
 
 __For Developers__
+
 Text.
 
 
