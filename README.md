@@ -76,6 +76,28 @@ __For Developers__
 ![Google Wallet iOS App: Sending Money](images/googlewalletiossend.jpeg) 
 ![Google Wallet iOS App: Wallet](images/googlewalletios.jpeg) 
 
+
+### Web Payments / PaySwarm - PLATFORMS?
+[https://web-payments.org/specs/](https://web-payments.org/specs/)
+
+__Use Cases__
+![Use Cases](https://web-payments.org/specs/source/use-cases/)
+* Add money to PaySwarm Authority from credit card or bank account
+* Mobile Computing-based Purchase (NFC, Bluetooth LE) 
+* Point-of-Sale Device (Routing of purchase requests by vendor) 
+* Ability to re-sell digital content (automatic redistribution licenses) 
+* Conditional Redistribution (enable redistribution only when certain parameters are met - smart contracts) 
+* Buy a product online through the use of a PaySwarm button in a web browser
+* Complete verifiability (digital signatures on assets, listings, digital receipts, and identity) 
+
+__Region & Currencies__
+
+* Worldwide with any currency (goal)
+
+__For Developers__
+
+Text.
+
 ### Web Payments / PaySwarm - PLATFORMS?
 [https://web-payments.org/specs/](https://web-payments.org/specs/)
 
@@ -176,6 +198,12 @@ __Use Cases__
 Square Wallet:
 
 * Customers can pay with their phones where square is used.
+
+![Square Wallet for Starbucks 1](images/Square_wallet_starbucks1.jpg)
+![Square Wallet for Starbucks 2](images/Square_wallet_starbucks2.jpg)
+![Square Wallet for Starbucks 3](images/Square_wallet_starbucks3.jpg)
+![Square Wallet for Starbucks 4](images/Square_wallet_starbucks4.jpg)
+
 
 Square Cash:
 
@@ -331,7 +359,22 @@ Text.
 
 __For Developers__
 
-Text.
+API:
+* Authentication
+** Uses HTTPS with a secret key
+* API Keys - API Key Secret to Perform Authenticated Requests [properties: create, fetch, list, delete]
+* Bank Accounts - resource that represents a bank account [properties: create, fetch, list, update,delete, associate with customer, debit]
+* Bank Account Verifications - verify ownership of a bank account using micro-donations [properties: create, fetch and confirm a bank account]
+* Callbacks - receive information at a URL of your choice [properties: create, fetch, list, delete]
+* Cards
+* Card Holds
+* Credits
+* Customers
+* Debits
+* Events
+* Orders
+* Refunds
+* Reversals
 
 ### 2checkout - PLATFORMS?
 [https://www.2checkout.com/](https://www.2checkout.com/)
@@ -646,7 +689,25 @@ API:
 * With payment timings the amount and date of the next transaction will be illustrated, which is less than or equal to the viewable existing balance
 * Official libraries in PHP, Ruby, Python, Node.js, .NET, and Java
 * Community libraries for Wordpress, Clojure, and Perl
-(continue with developer.gocardless.com).
+* Filtering in the URL to cut down the number of objects returned leading to faster API response time
+* Optional pagination for when endpoints contain multiple records
+* Pre-population of users payment pages on GoCardLess
+* Webhooks in the form of POST requests sent to the when a resource changes status
+* POST data contains information generated with the merchants "app secret" to prevent invalid web hooks
+* Available Webhook objects: Bill (can be subscription or pre-authorization) [actions: created, paid, withdrawn, failed, cancelled, refunded, chargedback, retried], Pre-authorization [actions: cancelled, expired], Subscription [actions: cancelled, expired]
+* Partner API to "create and manage multiple merchants". This includes:
+** Partner account setup
+** Creating multiple merchants
+** Request [parameters: client_id, redirect_uri, scope, response_type]
+** Response 
+** Exchange authorization code for access token, HTTP access request with app identifier and app secret [parameters: client_id, code, redirect_uri, grant_type]
+** Pre-populating information
+* Resources
+** Bill - "one-off payment from the user" - create one-off bill - confirm one-off bill - check the signature (use OAuth) - Complete the process - ..- list all bills - retrieve an existing bill - retry a failed bill - bill statuses
+** Merchant - collects payments in three ways: one-off bills, subscriptions, and pre-authorizations - attributes: retrieve merchant details, 
+** Payout - payment made from go-cardless to a merchants bank account - objects: list all payouts (array of payout objects), retrieve an existing payout ("returns a payout object")
+* Pre-authorization - when merchant wants to collect variable direct debit from the customer until an expiration date
+* Subscription - recurring direct debit for a fixed amount until an expiration date
 
 ### solution
 text
@@ -785,33 +846,32 @@ __For Developers__
 
 Text.
 
-### Ripple / Ripple Client
-[https://ripple.com/client](https://ripple.com/client)
+### Starbucks App - iPhone, Android 
 
-Ripple is a payment network this is open source, decentralized, and free to use. It provides distributed clearing, settlement, and foreign exchange. There are web and iOS apps for making payments but, more importantly, Ripple can be used to bridge other payment networks and can be integrated with other wallet solutions.
+[http://www.starbucks.com/coffeehouse/mobile-apps](http://www.starbucks.com/coffeehouse/mobile-apps)
 
-__Use Cases__
-* Bridge other payment networks
-* Payments in any currency or store of value (USD, EUR, BTC, gold, etc)
-* Wallet can hold any store of value
-* In-stream foreign exchange (payment senders and recipients need only deal in their preferred currencies, the network handles the exchange automatically)
-* Payments executed atomically, avoiding currency risk
-* Distributed clearing and settlement system (clearing takes 2-10 seconds)
-* Distributed foreign exchange platform that cross-currency payments take advantage of automatically
-* Remittances
-* Micro-transactions 
-* Based on public-private key cryptography
-* Practically 0 network transaction fees (currently 1 USD can pay the network fees for more than 5 million transactions)
+Use Cases:
 
-__Regions & Currencies__
-* Currently, AUD, BTC, CAD, CHF, CNY, DOG (dogecoin), DYM (silver dimes), EUR, GBP, ILS, JPY, LTC (litecoin), NMC (namecoin), NXT (nxtcoin), TRC (terracoin), USD, XAG (silver), XAU (gold), XRP (ripple native currency)
-* Network is global
-* All that is needed to use Ripple in another region or currency is for a 3rd party to start a gateway. Gateways accept and store currency outside of the network and issue IOUs for customers to use on the network
+* Pay with your phone (though a barcode scan displayed on the phone's screen)
+* Earn stars toward Starbucks rewards
+* Get directions to nearest Starbucks store
+* Obtain information about beverages, food, and nutrition
+* Listen to pick of the week songs
+* Send eGifts to contacts
+* Be the first to hear of special offers
+* Reload by cash at the register with a minimum of $5.00
+* Reload by Paypal, or choose an existing Starbucks gift card
 
-__For Developers__
-* Source code for backend, frontend, and developer tools is open source and on Github: [https://github.com/ripple](https://github.com/ripple)
-* RPC and Websocket APIs available, REST API is in beta
-* [Wiki](https://ripple.com/wiki/) and [Developer Portal](https://dev.ripple.com/) have documentation and other resources
+![Starbucks iPhone Mycards](images/Starbucks_iPhone_MyCards.png)
+![Starbucks iPhone Reward](images/Starbucks_iPhone_Reward.png)
+![Starbucks iPhone eGift](images/Starbucks_iPhone_eGift.png)
+![Starbucks iPhone Home](images/Starbucks_iPhone_Home.png)
+![Starbucks iPhone locationfinder](images/Starbucks_iPhone_locationfinder.png)
+![Starbucks Android Wallet](images/Starbucks_Android_wallet.jpg)
+![Starbucks Android rewards](images/Starbucks_Android_rewards.jpg )
+![Starbucks Android rewards2](images/Starbucks_Android_rewards2.jpg )
+![Starbucks Android location finder](images/Starbucks_Android_locationfinder.jpg)
+![Starbucks Android reload card](images/Starbucks_Android_reload_card.jpg)
 
 ## Other Use Cases
 Here are some other use cases not detailed in the above examples.
