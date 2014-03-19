@@ -76,6 +76,28 @@ __For Developers__
 ![Google Wallet iOS App: Sending Money](images/googlewalletiossend.jpeg) 
 ![Google Wallet iOS App: Wallet](images/googlewalletios.jpeg) 
 
+
+### Web Payments / PaySwarm - PLATFORMS?
+[https://web-payments.org/specs/](https://web-payments.org/specs/)
+
+__Use Cases__
+![Use Cases](https://web-payments.org/specs/source/use-cases/)
+* Add money to PaySwarm Authority from credit card or bank account
+* Mobile Computing-based Purchase (NFC, Bluetooth LE) 
+* Point-of-Sale Device (Routing of purchase requests by vendor) 
+* Ability to re-sell digital content (automatic redistribution licenses) 
+* Conditional Redistribution (enable redistribution only when certain parameters are met - smart contracts) 
+* Buy a product online through the use of a PaySwarm button in a web browser
+* Complete verifiability (digital signatures on assets, listings, digital receipts, and identity) 
+
+__Region & Currencies__
+
+* Worldwide with any currency (goal)
+
+__For Developers__
+
+Text.
+
 ### Web Payments / PaySwarm - PLATFORMS?
 [https://web-payments.org/specs/](https://web-payments.org/specs/)
 
