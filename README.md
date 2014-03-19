@@ -785,6 +785,33 @@ __For Developers__
 
 Text.
 
+### Ripple / Ripple Client
+[https://ripple.com/client](https://ripple.com/client)
+
+Ripple is a payment network this is open source, decentralized, and free to use. It provides distributed clearing, settlement, and foreign exchange. There are web and iOS apps for making payments but, more importantly, Ripple can be used to bridge other payment networks and can be integrated with other wallet solutions.
+
+__Use Cases__
+* Bridge other payment networks
+* Payments in any currency or store of value (USD, EUR, BTC, gold, etc)
+* Wallet can hold any store of value
+* In-stream foreign exchange (payment senders and recipients need only deal in their preferred currencies, the network handles the exchange automatically)
+* Payments executed atomically, avoiding currency risk
+* Distributed clearing and settlement system (clearing takes 2-10 seconds)
+* Distributed foreign exchange platform that cross-currency payments take advantage of automatically
+* Remittances
+* Micro-transactions 
+* Based on public-private key cryptography
+* Practically 0 network transaction fees (currently 1 USD can pay the network fees for more than 5 million transactions)
+
+__Regions & Currencies__
+* Currently, AUD, BTC, CAD, CHF, CNY, DOG (dogecoin), DYM (silver dimes), EUR, GBP, ILS, JPY, LTC (litecoin), NMC (namecoin), NXT (nxtcoin), TRC (terracoin), USD, XAG (silver), XAU (gold), XRP (ripple native currency)
+* Network is global
+* All that is needed to use Ripple in another region or currency is for a 3rd party to start a gateway. Gateways accept and store currency outside of the network and issue IOUs for customers to use on the network
+
+__For Developers__
+* Source code for backend, frontend, and developer tools is open source and on Github: [https://github.com/ripple](https://github.com/ripple)
+* RPC and Websocket APIs available, REST API is in beta
+* [Wiki](https://ripple.com/wiki/) and [Developer Portal](https://dev.ripple.com/) have documentation and other resources
 
 ## Other Use Cases
 Here are some other use cases not detailed in the above examples.
