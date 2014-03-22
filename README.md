@@ -741,18 +741,36 @@ Text.
 ### BlueVia - PLATFORMS?
 [http://www.bluevia.com/](http://www.bluevia.com/)
 
-(there is a mobile version, but what is this exactly?)
+BlueVia is the global cross Operator network for charge to mobile
+(operator billing) providing a seamless and secure payment experience between digital content services and the customers of Telefonica and Telenor Groups.
+
+Bluevia is not a user-facing payment processor but instead a backend technology that acts as gateway between different payment
+platforms (from aggregators like Bango to store services like Google Play) and the different operator platforms from O2, Movistar, VIVO, Digi and other subsidiaries of Telefonica and Telenor groups
 
 __Use Cases__
 
+* Identifies mobile users based on either header injection, RADIUS
+  lookup or SMS MO/MT fallback
+* Ability to add charges to mobile user's bill (for contract users) or
+  discount from user account credit (for prepay users)  with a single API across countries/operators 
+* In countries where available, ability to refund a previous charge back
+  to user's bill or prepaid account credit
 
 __Region & Currencies__
 
-Text.
+Spain, UK, Germany, Czech Republic, Brazil, Colombia, Mexico, Ecuador,
+Argentina and others 
+see http://www.bluevia.com/about/
+
+Payments on each country are accepted only in local currency. Settlement
+to developer platforms can be done in various currencies (usually Euros
+or US dollars)
 
 __For Developers__
 
-Text.
+Its meant as a B2B platform so no long tail developer-accesible API.
+It's used as a mechanism of payment by different platform APIs like
+Google Play, Windows Phone or Blackberry
 
 ### KryptoKit Bitcoin Wallet - Google Chrome Browser
 [http://kryptokit.com/](http://kryptokit.com/), [Chrome Web Store](https://chrome.google.com/webstore): KryptoKit Bitcoin Wallet
