@@ -19,7 +19,7 @@ The following are examples of applications across web, iOS, Android and Windows 
 ### Paypal - Web, iOS, Android, Windows
 Paypal allows users to pay for goods and services, send money and manage a wallet system from the web and iOS, Android, Windows and native applications.
 
-__Use Cases__
+__Services provided__
 * Send money to other users (identifying the users via email)
 * Pay for goods and services from third parties
 * Pay for goods and services in store from third parties
@@ -80,7 +80,7 @@ __For Developers__
 ### Web Payments / PaySwarm - PLATFORMS?
 [https://web-payments.org/specs/](https://web-payments.org/specs/)
 
-__Use Cases__
+__Services provided__
 ![Use Cases](https://web-payments.org/specs/source/use-cases/)
 * Add money to PaySwarm Authority from credit card or bank account
 * Mobile Computing-based Purchase (NFC, Bluetooth LE) 
@@ -101,7 +101,7 @@ Text.
 ### Web Payments / PaySwarm - PLATFORMS?
 [https://web-payments.org/specs/](https://web-payments.org/specs/)
 
-__Use Cases__
+__Services provided__
 ![Use Cases](https://web-payments.org/specs/source/use-cases/)
 * Verifiable identity (Know Your Customer is built-in)
 * Simple Web-based Payment Links
@@ -133,7 +133,7 @@ Text.
 ### Stripe - Web, iOS, Android
 [https://stripe.com/](https://stripe.com/)
 
-__Use Cases__
+__Services provided__
 * "Charge your customers in their own local currency"
 * "Pay out in any bank account"
 * "Accept payments from anyone, anywhere" (e.g. use Stripe Connect to collect transaction fees)
@@ -176,7 +176,7 @@ Text.
 ### Intuit GoPayment - PLATFORMS?
 [http://www.intuit-gopayment.com/](http://www.intuit-gopayment.com/)
 
-__Use Cases__
+__Services provided__
 * Accept payments through mobile phone by swiping of a credit card on an encrypted card reader
 * Allow up to 50 user accounts
 * Invalidate charges and send receipts again
@@ -194,7 +194,7 @@ Text.
 ### Square - iOS
 [https://squareup.com/](https://squareup.com/)
 
-__Use Cases__
+__Services provided__
 Square Wallet:
 
 * Customers can pay with their phones where square is used.
@@ -221,7 +221,7 @@ Text.
 [https://www.skrill.com/](https://www.skrill.com/) 
 (Need to look into mobile)
 
-__Use Cases__
+__Services provided__
 * Connect all your payment options and use them without revealing any financial details
 * Bank and credit card details are never revealed
 * Send money instantly to anyone with an email address
@@ -245,7 +245,7 @@ Text.
 ### BrainTree - Web, iOS, Windows, Android
 [https://www.braintreepayments.com/](https://www.braintreepayments.com/)
 
-__Use Cases__
+__Services provided__
 * Accept payments in your App or Website
 * One Touch Payments in mobile with Venmo Touch, no entering personal information or card number
 ** card information encrypted and stored on BrainTree's servers
@@ -267,7 +267,7 @@ API:
 ### World Pay - Web, iOS, Android
 [http://www.worldpay.us/](http://www.worldpay.us/)
 
-__Use Cases__
+__Services provided__
 * In person payment processing solutions 
 * Accept debit, credit cards, checks, and electronic benefits transfer
 * Counter top terminals, web enabled terminals, and industry specific
@@ -311,7 +311,7 @@ __For Developers__
 "A Flexible Payments API built specifically for Platforms"
 --"built for marketplaces, crowdfunding, and small business software"
 
-__Use Cases__
+__Services provided__
 * Let users accept social payments
 * Use Oauth2 to let users create a WePay account with a pop-up on your site
 * Collect payment information with an embedded form or a custom form
@@ -340,7 +340,7 @@ API:
 ### Balanced Payments - PLATFORMS?
 [https://www.balancedpayments.com/](https://www.balancedpayments.com/)
 
-__Use Cases__
+__Services provided__
 * Accept credit cards and ACH debit payments from your customers.
 * Use with any card processor or as a stand-alone service for same-day bank deposits.
 * Combine card processing and bank payouts with escrow.
@@ -379,7 +379,7 @@ API:
 ### 2checkout - PLATFORMS?
 [https://www.2checkout.com/](https://www.2checkout.com/)
 
-__Use Cases__
+__Services provided__
 Use Cases:
 
 * Automatic fraud protection
@@ -404,7 +404,7 @@ Text.
 [https://payments.amazon.com](https://payments.amazon.com) 
 (check for mobile)
 
-__Use Cases__
+__Services provided__
 * Get name, email, zipcode on login via Amazon button
 * Buy via mobile
 * One-time payments: supports simple one-time payments
@@ -425,7 +425,7 @@ Text.
 ### Dwolla - PLATFORMS?
 [https://www.dwolla.com/](https://www.dwolla.com/)
 
-__Use Cases__
+__Services provided__
 * Pay friends through email, phone, LinkedIn or Twitter.
 * Eliminate paper checks - Cheaper and faster than sending or receiving paper checks.
 * Cut out credit card fees.
@@ -448,7 +448,7 @@ Text.
 [http://www.wmtransfer.com/](http://www.wmtransfer.com/) 
 (check for mobile)
 
-__Use Cases__
+__Services provided__
 * Enter into legally binding contracts
 * 3rd party contract arbitration
 * Budget automation
@@ -476,7 +476,7 @@ Text.
 [https://www.ukash.com/](https://www.ukash.com/) 
 (check for mobile)
 
-__Use Cases__
+__Services provided__
 * Convert cash into 19-digit number which you can use to spend at stores
 * Redeem online or at Moneygram locations
 
@@ -497,7 +497,7 @@ Text.
 [http://www.neteller.com/](http://www.neteller.com/) 
 (check for mobile)
 
-__Use Cases__
+__Services provided__
 * Deposit money into eWallet from credit card or bank account
 * Withdraw money from eWallet to bank account
 * Pay at online stores supporting Netteller
@@ -516,7 +516,7 @@ Text.
 ### ClickandBuy - PLATFORMS?
 [https://www.clickandbuy.com/](https://www.clickandbuy.com/)
 
-__Use Cases__
+__Services provided__
 * Mobile-optimized QR-code based payment page
 * View all credits and transactions
 * Multi-device compatibility - Make purchases on all end devices (PC, tablet, smartphone) including in-app possibilities
@@ -552,7 +552,7 @@ Text.
 ### PaySafeCard - PLATFORMS?
 [https://www.paysafecard.com/](https://www.paysafecard.com/)
 
-__Use Cases__
+__Services provided__
 * Purchase PaySafeCard at nearest sales outlet in varying amounts 
 * Purchase at Web Shops by entering a 16-digit paysafecard PIN
 ** The two cases above allow for payments online without a bank account or credit card
@@ -575,7 +575,7 @@ Text.
 
 [https://globalpay.westernunion.com/Default.aspx](https://globalpay.westernunion.com/Default.aspx)
 
-__Use Cases__
+__Services provided__
 
 Text.
 
@@ -590,7 +590,7 @@ Text.
 ### Paymill - Web, iOS, Android
 [https://www.paymill.com/](https://www.paymill.com/)
 
-__Use Cases__
+__Services provided__
 * Customers can pay directly on the developers website
 * Payments processed in 100 currencies
 * Only successfully closed transactions paid for
@@ -649,7 +649,7 @@ Features:
 
 "UK's leading online Direct Debit provider"
 
-__Use Cases__
+__Services provided__
 * Customers set up with direct debit in seconds by requests by e-mail or on your site (linked to GoCardless payment page)
 * Payment submission and payment tracking online
 * Bank details stored securely
@@ -712,7 +712,7 @@ API:
 ### solution
 text
 
-__Use Cases__
+__Services provided__
 
 
 __Region & Currencies__
@@ -726,7 +726,7 @@ Text.
 ### GoPago - PLATFORMS
 [http://www.gopago.com/](http://www.gopago.com/)
 
-__Use Cases__
+__Services provided__
 
 Text.
 
@@ -747,7 +747,7 @@ BlueVia is the global cross Operator network for charge to mobile
 Bluevia is not a user-facing payment processor but instead a backend technology that acts as gateway between different payment
 platforms (from aggregators like Bango to store services like Google Play) and the different operator platforms from O2, Movistar, VIVO, Digi and other subsidiaries of Telefonica and Telenor groups
 
-__Use Cases__
+__Services provided__
 
 * Identifies mobile users based on either header injection, RADIUS
   lookup or SMS MO/MT fallback
@@ -775,7 +775,7 @@ Google Play, Windows Phone or Blackberry
 ### KryptoKit Bitcoin Wallet - Google Chrome Browser
 [http://kryptokit.com/](http://kryptokit.com/), [Chrome Web Store](https://chrome.google.com/webstore): KryptoKit Bitcoin Wallet
 
-__Use Cases__
+__Services provided__
 * Instant Bitcoin Wallet and secure Instant Messaging System that Runs in the Browser
 * Create a Bitcoin Wallet without usernames or passwords
 * Client Side Encryption, user data not sent to servers
@@ -804,7 +804,7 @@ Text.
 
 Not launched yet.
 
-__Use Cases__
+__Services provided__
 * Mobile App for Mobile Wallet
 * Wallets linked to Credit Cards and Bank Accounts
 * Provide merchants with information about customers for targeted sales promotions
@@ -820,7 +820,7 @@ Text.
 ### NetSpend - PLATFORMS?
 [http://www.netspend.com](http://www.netspend.com)
 
-__Use Cases__
+__Services provided__
 
 Text.
 
@@ -835,7 +835,7 @@ Text.
 ### KnCWallet - Android
 [http://kncwallet.com/](http://kncwallet.com/)
 
-__Use Cases__
+__Services provided__
 * Send and receive Bitcoins using mobile phone contacts
 * Back up encrypted wallet to Google Drive and DropBox
 
@@ -852,7 +852,7 @@ Text.
 
 (example of what the above web payments solutions may integrate with)
 
-__Use Cases__
+__Services provided__
 * Cloud Accounting Software
 * Integration with various payment gateways such as stripe, PayPal, beanstream, Authorize.net, 2checkout.com, Braintree, eway, iTransact
 
