@@ -3,7 +3,6 @@ Use Cases and Requirements for Web Payments on Mobile
 
 This document outlines the use cases and requirements for payments on mobile. The use cases and requirements were gathered by gathering data on web and native applications with payment functionality, as well as looking at native payment platforms. 
 
-
 ## Motivation
 The main questions this document seeks to expore are:
 * What functionality is being achieved by native payment applications and platforms which is missing from the web?
@@ -12,6 +11,120 @@ The main questions this document seeks to expore are:
 
 On March 24-25 the W3C will hold a [Workshop on Web Payments](http://www.w3.org/2013/10/payments/Overview.html). We have been asked to submit our use cases to help define the work the W3C will do on web payments in the future. 
 
+## Use Case Amalgamation
+In the sections below we have taken use cases from a selection of native and web mobile payment applications. In this section we will list the common use cases amongst those listed below.
+
+Mobile specific use cases or use cases which has a specific mobile implementation are marked with an [M].
+
+###Common Use Cases
+__Act of Payment__
+* Send / receive money to other users
+* Pay for goods and services from third parties
+* [M] Pay for goods and services in store 
+* Request money from another user
+* Allow for reoccuring payments
+* Automated payments
+* [M] Streaming payments (pay-as-you-go)
+* Crowd-funding (all-or-nothing funding models)
+* Subscriptions
+* Delayed payments
+* Deposit payments directly to user's bank accounts
+* Micropayments
+* Enter into legally binding contracts
+* 3rd party contract arbitration
+* Buy and sell debt on an open market
+* Peer-to-peer loans via trust limits
+* Purchase via pin / identity
+* [M] Send Notifications
+* [M] Peer-to-peer payment
+
+__UI__
+* [M] Do not have to re-enter account information (RequestAutoComplete)
+* [M] Use of NFC, Bluetooth LE, QR Codes
+* [M] SMS-based payment
+* [M] Accept payments through mobile phone by swiping of a credit card on an encrypted card reader
+* Simple Web-based Payment Links
+* [M] One Touch Payments in mobile 
+* Embedded form or Custom form
+* [M] Offline mobile payments
+
+__Refunds and Errors__
+* Retry failed payments
+* Invalidate charges and send receipts again
+* Refund payments
+
+__Security__
+* End-to-End Encryption 
+* Automatic fraud protection
+* [M] Mobile-based two-factor authorization of large payment amounts
+* Skip signatures on small tickets
+
+__User Management__
+* Identify users by email
+* Identify users by phone number
+* Identify users by social network account
+* [M] Identify mobile users based on header injection
+* [M] Identify mobile users based on RADIUS lookup
+* [M] Identify mobile users based on SMS MO/MT fallback
+* Identify users by bank-issued OpenID
+* Allow multiple user accounts
+* Connect all your payment options and use them without revealing any financial details
+
+__Payment Methods__
+* Pay using credit and debit card
+* Link and pay by a bank acocunt
+* Cheques
+* Electronic balance transfer
+* Direct Debit
+* [M] Convert cash into identifier which you can use to spend at stores
+* Split balances between multiple payment options
+* Ability to add charges to mobile user's bill (for contract users) or
+  discount from user account credit (for prepay users)  with a single API across countries/operators 
+
+__Loyalty Schemes__
+* [M] Manage loyalty schemes
+
+__Wallets__
+* [M] Add funds via a wallet system
+* [M] Withdraw funds via a wallet system
+* [M] Pay via wallet system
+
+__Pay Receipts__
+* [M] Link mobile phone number to account and use for pay receipts
+* Proof-of-Purchase and Verifiable Digital Receipts
+
+__International Use Cases__
+* Acceptance of payments globally, and deposit into users bank account
+* Charge customers in their own local currency
+* Automatic foreign exchange
+* Alternative Currencies (Support for Bitcoin, Ripple, Ven, etc.)
+* Apply sales tax with geolocation
+
+__Vendor Use Cases__
+* [M] Turn mobile into Point-of-Sale Device
+* [M] Ability to re-sell digital content (automatic redistribution licenses)
+* Complete verifiability (digital signatures on assets, listings, digital receipts, and identity) 
+* Decentralized, Machine-readable Metadata (Assets and Services)
+* Separation of Content from Licenses
+* [M] Generate revenue by applying your own transaction fees to payments on your platform
+
+###Developers-specific Use Cases
+See specific solutions for good API use cases / requirements:
+
+* Paypal
+* Google Wallet
+* Stripe
+* Balanced Payments
+* Paymill
+* GoCardless
+
+###Use Case Notes
+* Removed account viewing info (app specific)
+* Removed when you pay (app specific)
+* Removed security details (PCI compliant, SSL, tokenization, address verification system, and credit card security code for fraud protection, OAuth2, OpenID Connect)  
+* Payment-end flows, so what happens at the bank (business issue)
+* Some digital currency related use cases that are the same for desktop and mobile
+* Removed payment plans (business issue)
 ## Payment Methods
 
 The following are examples of applications across web, iOS, Android and Windows Phone that allow users to pay for goods or services via various methods. 
@@ -94,11 +207,7 @@ __Region & Currencies__
 
 * Worldwide with any currency (goal)
 
-__For Developers__
-
-Text.
-
-### Web Payments / PaySwarm - PLATFORMS?
+### Web Payments / PaySwarm 
 [https://web-payments.org/specs/](https://web-payments.org/specs/)
 
 __Services provided__
@@ -122,14 +231,6 @@ __Services provided__
 * Conditional Redistribution (enable redistribution only when certain parameters are met - smart contracts)
 * Complete verifiability (digital signatures on assets, listings, digital receipts, and identity)
 
-__Region & Currencies__
-
-Text.
-
-__For Developers__
-
-Text.
-
 ### Stripe - Web, iOS, Android
 [https://stripe.com/](https://stripe.com/)
 
@@ -139,7 +240,7 @@ __Services provided__
 * "Accept payments from anyone, anywhere" (e.g. use Stripe Connect to collect transaction fees)
 * With Stripe connect, customers do not have to re-enter account information for any of the merchants connected Stripe accounts
 
-'''For Developers:'''
+__For Developers__
 
 * "A set of unified APIs that instantly enable businesses to accept and manage online payments." 
 * "Build platforms with Stripe and offer payments to your users"
@@ -165,15 +266,7 @@ __Services provided__
 * Events: show interesting things for a Stripe Account
 * Tokens: charge credit cards or send payments to bank accounts without holding sensitive information on your servers
 
-__Region & Currencies__
-
-Text.
-
-__For Developers__
-
-Text.
-
-### Intuit GoPayment - PLATFORMS?
+### Intuit GoPayment 
 [http://www.intuit-gopayment.com/](http://www.intuit-gopayment.com/)
 
 __Services provided__
@@ -182,14 +275,6 @@ __Services provided__
 * Invalidate charges and send receipts again
 * View history and import to Quickbooks
 * Apply sales tax with geolocation
-
-__Region & Currencies__
-
-Text.
-
-__For Developers__
-
-Text.
 
 ### Square - iOS
 [https://squareup.com/](https://squareup.com/)
@@ -209,13 +294,6 @@ Square Cash:
 
 * Send and request money for free with the use of a debit card and an e-mail address.
 
-__Region & Currencies__
-
-Text.
-
-__For Developers__
-
-Text.
 
 ### Skrill - PLATFORMS?
 [https://www.skrill.com/](https://www.skrill.com/) 
@@ -234,14 +312,6 @@ Features:
 * Anti-fraud screening
 * Accept secure ‘password only’ payments in 40 currencies from over 36 million people worldwide
 
-__Region & Currencies__
-
-Text
-
-__For Developers__
-
-Text.
-
 ### BrainTree - Web, iOS, Windows, Android
 [https://www.braintreepayments.com/](https://www.braintreepayments.com/)
 
@@ -255,10 +325,6 @@ __Services provided__
 __Region & Currencies__
 
 Worldwide and multi-currency.
-
-__For Developers__
-
-API:
 
 * Manage credit cards, subscriptions, and transactions
 * API libraries in Ruby, PHP, Python, Java, Perl, Microsoft.NET, Node.js
@@ -299,11 +365,6 @@ __Region & Currencies__
 
 Worldwide and multi-currency.
 
-__For Developers__
-
-[APIs](https://developers.google.com/wallet/):
-* 
-
 ### WePay - iOS
 [https://www.wepay.com/](https://www.wepay.com/) 
 (need to look into mobile)
@@ -326,10 +387,6 @@ Features:
 
 * Protection with Veda, a proprietary social risk engine 
 
-__Region & Currencies__
-
-Text.
-
 __For Developers__
 
 API:
@@ -337,14 +394,13 @@ API:
 * Merchant Category Codes to Classify Businesses
 * Instant Payment Notifications to track the state changes of payments, accounts, and other API objects asyncronously
 
-### Balanced Payments - PLATFORMS?
+### Balanced Payments
 [https://www.balancedpayments.com/](https://www.balancedpayments.com/)
 
 __Services provided__
 * Accept credit cards and ACH debit payments from your customers.
 * Use with any card processor or as a stand-alone service for same-day bank deposits.
 * Combine card processing and bank payouts with escrow.
-* Balanced provides client libraries and a RESTful API for you to easily integrate.
 * Decide when to disburse funds
 * Define your own fee structure
 
@@ -353,11 +409,8 @@ Features:
 * Completely white-labeled
 * No monthly fees. No setup fees. No recurring fees.
 
-__Region & Currencies__
-
-Text.
-
 __For Developers__
+* Balanced provides client libraries and a RESTful API for you to easily integrate.
 
 API:
 * Authentication
@@ -376,7 +429,7 @@ API:
 * Refunds
 * Reversals
 
-### 2checkout - PLATFORMS?
+### 2checkout
 [https://www.2checkout.com/](https://www.2checkout.com/)
 
 __Services provided__
@@ -392,15 +445,8 @@ Features:
 * Monitor account status and history (outgoing, incoming, charts, etc.)
 * Works with multiple shopping carts
 
-__Region & Currencies__
 
-Text.
-
-__For Developers__
-
-Text.
-
-### Amazon Payments - PLATFORMS?
+### Amazon Payments 
 [https://payments.amazon.com](https://payments.amazon.com) 
 (check for mobile)
 
@@ -414,15 +460,8 @@ __Services provided__
 * Marketplace payments: facilitates multi-payment needs between buyers and sellers in a marketplace
 * Micropayments
 
-__Region & Currencies__
 
-Text.
-
-__For Developers__
-
-Text.
-
-### Dwolla - PLATFORMS?
+### Dwolla 
 [https://www.dwolla.com/](https://www.dwolla.com/)
 
 __Services provided__
@@ -432,19 +471,7 @@ __Services provided__
 * Operate as an agent of a financial institution.
 * Payments for web and mobile apps - simple payment buttons, an offsite checkout gateway and OAuth + a RESTful API.
 
-Features:
-
-* No percentages. No hidden fees. Just 25¢ per transaction or free for transactions $10 or less.
-
-__Region & Currencies__
-
-Text.
-
-__For Developers__
-
-Text.
-
-### WebMoney - PLATFORMS?
+### WebMoney 
 [http://www.wmtransfer.com/](http://www.wmtransfer.com/) 
 (check for mobile)
 
@@ -464,15 +491,7 @@ __Services provided__
 * Allows the escrow of funds to be released when a certain business transaction is successful
 * Login mechanism using bank-issued OpenID
 
-__Region & Currencies__
-
-Text.
-
-__For Developers__
-
-Text.
-
-### Ukash - PLATFORMS?
+### Ukash 
 [https://www.ukash.com/](https://www.ukash.com/) 
 (check for mobile)
 
@@ -484,16 +503,7 @@ Features:
 
 * Free to use money once converted to ukash.
 
-__Region & Currencies__
-
-Text.
-
-__For Developers__
-
-Text.
-
-
-### Netteller - PLATFORMS?
+### Netteller 
 [http://www.neteller.com/](http://www.neteller.com/) 
 (check for mobile)
 
@@ -505,15 +515,8 @@ __Services provided__
 * eWallet tied to Mastercard card
 * Multiple currency accounts
 
-__Region & Currencies__
 
-Text.
-
-__For Developers__
-
-Text.
-
-### ClickandBuy - PLATFORMS?
+### ClickandBuy 
 [https://www.clickandbuy.com/](https://www.clickandbuy.com/)
 
 __Services provided__
@@ -541,15 +544,7 @@ Features:
 * International character - Purchases can be made in 120 currencies and 193 countries
 * Protection - Additional protection for delivery items
 
-__Region & Currencies__
-
-Text.
-
-__For Developers__
-
-Text.
-
-### PaySafeCard - PLATFORMS?
+### PaySafeCard 
 [https://www.paysafecard.com/](https://www.paysafecard.com/)
 
 __Services provided__
@@ -561,31 +556,6 @@ __Services provided__
 ** Find sales outlets in your area
 ** Veiw your PaySafeCard balance 
 * Deposit into your Skrill digital wallet
-
-__Region & Currencies__
-
-Text.
-
-__For Developers__
-
-Text.
-
-### Western Union - PLATFORMS?
-[http://www.westernunion.com/Home](http://www.westernunion.com/Home)
-
-[https://globalpay.westernunion.com/Default.aspx](https://globalpay.westernunion.com/Default.aspx)
-
-__Services provided__
-
-Text.
-
-__Region & Currencies__
-
-Text.
-
-__For Developers__
-
-Text.
 
 ### Paymill - Web, iOS, Android
 [https://www.paymill.com/](https://www.paymill.com/)
@@ -599,10 +569,6 @@ __Services provided__
 * Credit cards from around the world accepted
 * Refund payments
 * Subscription based payments
-
-__Region & Currencies__
-
-Text.
 
 __For Developers__
 API:
@@ -644,7 +610,7 @@ Features:
 ** Available for both iOS and Android
 ** Delivered as a framework a Bundle for iOS and a JAR file for Android
 
-### GoCardless - PLATFORMS?
+### GoCardless 
 [https://gocardless.com/](https://gocardless.com/)
 
 "UK's leading online Direct Debit provider"
@@ -663,10 +629,6 @@ __Services provided__
 * Upload a CSV to do business with multiple customers at once
 * Link your page to GoCardless' page, request payments from the dashboard
 * Automate recurring payments
-
-__Region & Currencies__
-
-Text.
 
 __For Developers__
 * Add a checkout button to your site or e-mails
@@ -709,43 +671,14 @@ API:
 * Pre-authorization - when merchant wants to collect variable direct debit from the customer until an expiration date
 * Subscription - recurring direct debit for a fixed amount until an expiration date
 
-### solution
-text
-
-__Services provided__
-
-
-__Region & Currencies__
-
-Text.
-
-__For Developers__
-
-Text.
-
-### GoPago - PLATFORMS
-[http://www.gopago.com/](http://www.gopago.com/)
-
-__Services provided__
-
-Text.
-
-__Region & Currencies__
-
-Text.
-
-__For Developers__
-
-Text.
-
-### BlueVia - PLATFORMS?
+### BlueVia 
 [http://www.bluevia.com/](http://www.bluevia.com/)
 
 BlueVia is the global cross Operator network for charge to mobile
 (operator billing) providing a seamless and secure payment experience between digital content services and the customers of Telefonica and Telenor Groups.
 
 Bluevia is not a user-facing payment processor but instead a backend technology that acts as gateway between different payment
-platforms (from aggregators like Bango to store services like Google Play) and the different operator platforms from O2, Movistar, VIVO, Digi and other subsidiaries of Telefonica and Telenor groups
+platforms (from aggregators like Bango to store services like Google Play) and the different operator platforms from O2, Movistar, VIVO, Digi and other subsidiaries of Telefonica and Telenor groups.
 
 __Services provided__
 
@@ -768,7 +701,7 @@ or US dollars)
 
 __For Developers__
 
-Its meant as a B2B platform so no long tail developer-accesible API.
+It's meant as a B2B platform so no long tail developer-accesible API.
 It's used as a mechanism of payment by different platform APIs like
 Google Play, Windows Phone or Blackberry
 
@@ -791,14 +724,6 @@ __Services provided__
 * Bitcoin directory of places to spend Bitcoin
 * Click the Bitcoin address you wish to send Bitcoins to and enter the amount you wish to send
 
-__Region & Currencies__
-
-Text.
-
-__For Developers__
-
-Text.
-
 ### Clinkle
 [https://www.clinkle.com/](https://www.clinkle.com/)
 
@@ -809,29 +734,6 @@ __Services provided__
 * Wallets linked to Credit Cards and Bank Accounts
 * Provide merchants with information about customers for targeted sales promotions
 
-__Region & Currencies__
-
-Text.
-
-__For Developers__
-
-Text.
-
-### NetSpend - PLATFORMS?
-[http://www.netspend.com](http://www.netspend.com)
-
-__Services provided__
-
-Text.
-
-__Region & Currencies__
-
-Text.
-
-__For Developers__
-
-Text.
-
 ### KnCWallet - Android
 [http://kncwallet.com/](http://kncwallet.com/)
 
@@ -839,15 +741,7 @@ __Services provided__
 * Send and receive Bitcoins using mobile phone contacts
 * Back up encrypted wallet to Google Drive and DropBox
 
-__Region & Currencies__
-
-Text.
-
-__For Developers__
-
-Text.
-
-### Freshbooks - PLATFORMS?
+### Freshbooks 
 [http://www.freshbooks.com](http://www.freshbooks.com)
 
 (example of what the above web payments solutions may integrate with)
@@ -855,14 +749,6 @@ Text.
 __Services provided__
 * Cloud Accounting Software
 * Integration with various payment gateways such as stripe, PayPal, beanstream, Authorize.net, 2checkout.com, Braintree, eway, iTransact
-
-__Region & Currencies__
-
-Text.
-
-__For Developers__
-
-Text.
 
 ### Starbucks App - iPhone, Android 
 
