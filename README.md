@@ -650,7 +650,7 @@ API:
 
 
 ### Yandex.Money - Web, iOS, Android, Windows Phone
-[http://money.yandex.ru/](http://money.yandex.ru/)
+[https://money.yandex.ru/eng/about.xml](http://money.yandex.ru/)
 
 __Use Cases__
 * Accepting payments (web/mobile)
