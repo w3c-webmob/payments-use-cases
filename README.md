@@ -709,6 +709,36 @@ API:
 * Pre-authorization - when merchant wants to collect variable direct debit from the customer until an expiration date
 * Subscription - recurring direct debit for a fixed amount until an expiration date
 
+
+### Yandex.Money - Web, iOS, Android, Windows Phone
+[http://money.yandex.ru/](https://money.yandex.ru/eng/about.xml)
+
+__Use Cases__
+* Accepting payments (web/mobile)
+* Linking bank cards to e-wallets
+* Transferring funds from e-wallets / bank cards
+* Sending funds to e-wallets and bank cards
+* Transfers to bank accounts
+* Transfers by cell phone number or email address (hold-for-pickup transfers)
+* Issuing virtual bank cards
+* Authorization via text message
+* Paying for services
+* Buying goods
+* Regular autopayments
+* Automatic reminders
+* Viewing transaction history and payment details
+
+__For Developers__
+* Mobile SDK
+
+API: 
+* Viewing users' data
+* Transaction history and payment details
+* Funds transfer (from accounts on the service / from bank cards)
+* Notifications about incoming transfers
+* Direct debit payments (autopayments/subscriptions)
+
+
 ### solution
 text
 
