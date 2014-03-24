@@ -109,7 +109,7 @@ __Vendor Use Cases__
 * [M] Generate revenue by applying your own transaction fees to payments on your platform
 
 ###Developers-specific Use Cases
-See specific solutions for good API use cases / requirements:
+See specific solutions for good API use cases / requirements, these can be found in ["Use Cases as per Existing Payment Solutions"](/existingpaymentsolution.md):
 
 * Paypal
 * Google Wallet
