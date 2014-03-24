@@ -56,7 +56,7 @@ __Refunds and Errors__
 __Security__
 * End-to-End Encryption 
 * Automatic fraud protection
-* [M] Mobile-based two-factor authorization of large payment amounts
+* [M] Mobile-based two-factor authorization of large payment amounts (e.g. SMS)
 * Skip signatures on small tickets
 
 __User Management__
@@ -88,6 +88,8 @@ __Wallets__
 * [M] Add funds via a wallet system
 * [M] Withdraw funds via a wallet system
 * [M] Pay via wallet system
+* [M] Transferring funds from e-wallets / bank cards
+* [M] Sending funds to e-wallets and bank cards
 
 __Pay Receipts__
 * [M] Link mobile phone number to account and use for pay receipts
@@ -117,6 +119,7 @@ See specific solutions for good API use cases / requirements, these can be found
 * Balanced Payments
 * Paymill
 * GoCardless
+* Yandex
 
 ###Use Case Notes
 * Removed account viewing info (app specific)
