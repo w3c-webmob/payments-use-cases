@@ -130,7 +130,7 @@ See specific solutions for good API use cases / requirements:
 We captured use cases from current native and proprietary web solutions. Below are links to the documentation containing the solutions.
 
 ###Use Cases as per Existing Payment Solutions
-["Use Cases as per Existing Payment Solutions"](/existingpaymentsolution.md)
+We took use cases from existing payment solutions in native apps and proprietary web solutions, these are detailed in ["Use Cases as per Existing Payment Solutions"](/existingpaymentsolution.md).
 
 ###Other Use Cases
-["Other Use Cases"](/otherusecases.md)
+We may find some other use cases which are not detailed in current native or proprietary web solutions, these will be detailed in ["Other Use Cases"](/otherusecases.md).
