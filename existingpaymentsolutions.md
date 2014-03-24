@@ -1,4 +1,5 @@
-## Use Cases as per Payment Methods
+Use Cases as per Existing Payment Solutions
+==================
 
 The following are examples of applications across web, iOS, Android and Windows Phone that allow users to pay for goods or services via various methods. 
 
@@ -650,5 +651,30 @@ Use Cases:
 ![Starbucks Android location finder](images/Starbucks_Android_locationfinder.jpg)
 ![Starbucks Android reload card](images/Starbucks_Android_reload_card.jpg)
 
-## Other Use Cases
-Here are some other use cases not detailed in the above examples.
+### Yandex.Money - Web, iOS, Android, Windows Phone
+[http://money.yandex.ru/](http://money.yandex.ru/)
+
+__Use Cases__
+* Accepting payments (web/mobile)
+* Linking bank cards to e-wallets
+* Transferring funds from e-wallets / bank cards
+* Sending funds to e-wallets and bank cards
+* Transfers to bank accounts
+* Transfers by cell phone number or email address (hold-for-pickup transfers)
+* Issuing virtual bank cards
+* Authorization via text message
+* Paying for services
+* Buying goods
+* Regular autopayments
+* Automatic reminders
+* Viewing transaction history and payment details
+
+__For Developers__
+* Mobile SDK
+
+API: 
+* Viewing users' data
+* Transaction history and payment details
+* Funds transfer (from accounts on the service / from bank cards)
+* Notifications about incoming transfers
+* Direct debit payments (autopayments/subscriptions)
