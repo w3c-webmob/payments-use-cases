@@ -111,7 +111,7 @@ __Vendor Use Cases__
 * [M] Generate revenue by applying your own transaction fees to payments on your platform
 
 ###Developers-specific Use Cases
-See specific solutions for good API use cases / requirements, these can be found in ["Use Cases as per Existing Payment Solutions"](/existingpaymentsolution.md):
+See specific solutions for good API use cases / requirements, these can be found in ["Use Cases as per Existing Payment Solutions"](/existingpaymentsolutions.md):
 
 * Paypal
 * Google Wallet
@@ -133,7 +133,7 @@ See specific solutions for good API use cases / requirements, these can be found
 We captured use cases from current native and proprietary web solutions. Below are links to the documentation containing the solutions.
 
 ###Use Cases as per Existing Payment Solutions
-We took use cases from existing payment solutions in native apps and proprietary web solutions, these are detailed in ["Use Cases as per Existing Payment Solutions"](/existingpaymentsolution.md).
+We took use cases from existing payment solutions in native apps and proprietary web solutions, these are detailed in ["Use Cases as per Existing Payment Solutions"](/existingpaymentsolutions.md).
 
 ###Other Use Cases
 We may find some other use cases which are not detailed in current native or proprietary web solutions, these will be detailed in ["Other Use Cases"](/otherusecases.md).
